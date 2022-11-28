@@ -1,0 +1,15 @@
+@use '../globals/variables' as vrb;
+@use '../globals/mixing' as mix;
+
+#property {
+    // Iconlara border verildi
+    .icon-item {
+        @include mix.borderRadius;
+    }
+    @media (min-width: 992px) {
+        p {
+            margin-left: 180px;
+            margin-right: 180px;
+        }
+    }
+}

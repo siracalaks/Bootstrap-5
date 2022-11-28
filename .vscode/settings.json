@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.formatOnSave": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "vscode-edge-devtools.webhint": false,
+    "editor.accessibilitySupport": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "[sass]": {
+      "editor.defaultFormatter": "syler.sass-indented"
+    },
+    "window.zoomLevel": -1,
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".css",
+        "savePath": "/dist",
+        "savePathReplacementPairs": null,
+        "savePathSegmentKeys": null,
+        "savePathReplaceSegmentsWith": null
+      }
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": true
+  }

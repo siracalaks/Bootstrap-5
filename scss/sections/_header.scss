@@ -1,0 +1,55 @@
+@use '../globals/variables' as vrb;
+header {
+    // H1 , P , A etiketlerin kapsayıcısı 
+    .header-text {
+        margin-top: 140px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 650px;
+        h1{
+            font-size: 3rem;
+            line-height: 50px;
+            span {
+                color: vrb.$color-success;
+            }
+        }
+        p {
+            color: vrb.$color-gray;
+            padding-right: 20px;
+        }
+        a {
+            background-color: vrb.$color-success;
+        }
+    }
+
+    // Carousel bölümü 
+    .slide {
+
+        .carousel-control-prev-icon {
+            background-color: vrb.$color-success;
+            margin-right: 130px;
+        }
+
+        .carousel-control-next-icon {
+            background-color: vrb.$color-success;
+            margin-left: 130px;
+        }
+    }
+
+    // @media (min-width: 992px) and (max-width:1299.98px) {
+    //     margin-left: 250px;
+    // }
+
+    @media (max-width: 768px) {
+        .header-carousel .__carousel {
+            display: none;
+        }
+        .header-carousel {
+            width: 100%;
+        }
+        .btn {
+            margin-bottom: 2rem;
+        }
+    }
+    
+}

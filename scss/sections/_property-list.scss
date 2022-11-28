@@ -1,0 +1,36 @@
+@use '../globals/variables' as vrb;
+@use '../globals/mixing' as mix;
+
+
+#propertyList {
+    .nav-item > .active {
+        background-color: vrb.$color-success;
+        border: none;
+    }
+    .nav-item > .btn {
+        border-color: vrb.$color-success
+    }
+    .text-white {
+        background-color: vrb.$color-success;
+    }
+    .bg-white, h5, p > i {
+        color: vrb.$color-success;
+    }
+    
+    h5 {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    a {
+        color: vrb.$color-black;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    small {
+        color: vrb.$color-gray;
+    }
+    img.icon{
+        width: 20px;
+    }
+}

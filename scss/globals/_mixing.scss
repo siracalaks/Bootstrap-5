@@ -1,0 +1,7 @@
+@use '../globals/variables' as vrb;
+
+
+@mixin borderRadius {
+    border: 1px dashed vrb.$color-success;
+    border-radius: 50px;
+}

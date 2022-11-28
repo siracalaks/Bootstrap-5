@@ -1,0 +1,25 @@
+@use '../globals/variables' as vrb;
+
+#team {
+    i {
+        background-color: white;
+        color: vrb.$color-success;
+        border-radius: 50px;
+        box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+        padding: 12px;
+    }
+
+    h5 {
+        color: vrb.$color-black;
+    }
+    small {
+        color: vrb.$color-gray
+    }
+    @media (min-width: 992px) {
+        p {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+}
+

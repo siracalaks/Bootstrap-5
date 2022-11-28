@@ -1,0 +1,51 @@
+@use '../globals/variables' as vrb;
+@use '../globals/mixing' as mix;
+
+nav {
+    // Logo 
+    .img-border{
+        @include mix.borderRadius();
+    }
+    h1 {
+        color: vrb.$color-success;
+    }
+
+    // Active olan ilk nav 
+    .nav-link__active {
+           color: vrb.$color-success;
+           font-weight: 600;
+           text-transform: uppercase;
+           font-size: vrb.$fs-14;
+
+        }
+    // Genel bir nav-link özelliği 
+    .nav-link {
+        font-weight: 600;
+        color: vrb.$color-black;
+        text-transform: uppercase;
+        font-size: vrb.$fs-14;
+    }
+    .btn {
+        background-color: vrb.$color-success;
+    }
+    @media (max-width: 991.98px) {
+        .nav-bar {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .navbar-light .navbar-nav .nav-link  {
+            margin-right: 0;
+            padding: 10px 0;
+        }
+    
+        .navbar-light .navbar-nav {
+            border-top: 1px solid #EEEEEE;
+        }
+    }
+}
+        // @media (min-width: 575.99) {
+        //     .btn {
+        //         margin-bottom: 50px;
+        //     }
+        // }

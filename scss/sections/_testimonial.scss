@@ -1,0 +1,43 @@
+@use '../globals/variables' as vrb;
+
+#testimonial {
+    
+
+    h6 {
+        color: vrb.$color-black;
+    }
+    small {
+        color: vrb.$color-gray;
+    }
+    img {
+        border-radius: 50px;
+    }
+    .rounded-circle {
+        background-color: vrb.$color-success;
+        
+        &:hover {
+        background-color: vrb.$color-black;
+        }
+    }
+    @media (min-width: 992px) {
+        p.align-center {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+    @media (min-width: 576px) {
+        .carousel-inner {
+            height: 290px;
+        }
+    }
+
+    // @media (max-width: 768) {
+    //     .col-4 {
+    //         // display: inline-flex;
+    //         // width: 250px;
+    //         // height: 250px;
+    //     }
+    // }
+
+
+}

@@ -1,0 +1,10 @@
+@use '../globals/variables' as vrb;
+
+#form {
+    .form-bg { 
+        background-color: vrb.$color-success;
+    }
+        .btn-bg {
+            background-color: vrb.$color-black;
+        }
+}

@@ -1,0 +1,21 @@
+@use '../globals/variables' as vrb;
+@use '../globals/mixing' as mix;
+
+
+// CALL TO ACTION 
+
+#callToAction {
+    .btn:last-child{
+        background-color: vrb.$color-black;
+        color: white;
+    }
+
+    .bg-white {
+        @include mix.borderRadius;
+    }
+
+    .btn{
+        background-color: vrb.$color-success;
+        color: white;
+    }
+}

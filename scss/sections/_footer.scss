@@ -1,0 +1,38 @@
+@use '../globals/variables' as vrb;
+
+.footer {
+    background-color: vrb.$color-black;
+    padding-bottom: 0px;
+    h5 {
+        color: white;
+    }
+    a , p , i{
+        color: rgba(255,255,255,0.5);
+        text-decoration: none;
+    }
+    // Icons Social Media
+    a.circle {
+        border-radius: 50px;
+        border-color: white;
+        margin-right: 5px;
+        i {
+        color: white;
+        }
+    }
+    span {
+        color: white;
+    }
+    div.vr {
+        color: rgba(255,255,255,0.5);
+        margin: 0 5px;
+    }
+
+    button {
+        background-color: vrb.$color-success;
+        color: white;
+    }
+}
+.button-bottom {
+    background-color: vrb.$color-success;
+    color: white;
+}
