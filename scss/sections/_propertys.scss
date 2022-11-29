@@ -12,20 +12,6 @@
         text-decoration: none;
         color: vrb.$color-black;
     }
-    .icon-item:hover div {
-        background-color: vrb.$color-success;
-        border-color: transparent;
-        position: inherit;
-    }
-
-    .icon-item:hover div * {
-        color: #FFFFFF;
-    }
-
-    .icon:hover {
-        background-color: white;
-        color: #FFFFFF;
-    }
     
     @media (min-width: 992px) {
         p {
