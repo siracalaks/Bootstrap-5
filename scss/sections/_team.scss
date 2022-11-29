@@ -1,6 +1,17 @@
-@use '../globals/variables' as vrb;
+@use '../abstracts/variables' as vrb;
 
 #team {
+    .team-item-control {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        
+        // position-absolute start-50 top-100 translate-middle d-flex aliggn-items-center
+    }
+
     i {
         background-color: white;
         color: vrb.$color-success;

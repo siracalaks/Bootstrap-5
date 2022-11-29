@@ -2,6 +2,6 @@
 
 
 @mixin borderRadius {
-    border: 1px dashed vrb.$color-success;
+    border: vrb.$border-dashed;
     border-radius: 50px;
 }

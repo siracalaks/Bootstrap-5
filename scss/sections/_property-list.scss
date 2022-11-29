@@ -1,5 +1,5 @@
-@use '../globals/variables' as vrb;
-@use '../globals/mixing' as mix;
+@use '../abstracts/variables' as vrb;
+@use '../abstracts/mixing' as mix;
 
 
 #propertyList {
@@ -13,6 +13,32 @@
     .text-white {
         background-color: vrb.$color-success;
     }
+    // For Sell 
+    .bg-control {
+        background-color: vrb.$color-success;
+        color: white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border: 5px;
+    }
+    // Appartment 
+    .bg-white {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        padding-top: 0.25rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .bg-white, h5, p > i {
         color: vrb.$color-success;
     }

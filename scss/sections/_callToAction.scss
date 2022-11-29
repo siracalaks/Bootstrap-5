@@ -1,5 +1,5 @@
-@use '../globals/variables' as vrb;
-@use '../globals/mixing' as mix;
+@use '../abstracts/variables' as vrb;
+@use '../abstracts/mixing' as mix;
 
 
 // CALL TO ACTION 
@@ -8,10 +8,6 @@
     .btn:last-child{
         background-color: vrb.$color-black;
         color: white;
-    }
-
-    .bg-white {
-        @include mix.borderRadius;
     }
 
     .btn{

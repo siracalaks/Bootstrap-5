@@ -1,5 +1,5 @@
-@use '../globals/variables' as vrb;
-@use '../globals/mixing' as mix;
+@use '../abstracts/variables' as vrb;
+@use '../abstracts/mixing' as mix;
 
 nav {
     // Logo 
@@ -8,8 +8,12 @@ nav {
     }
     h1 {
         color: vrb.$color-success;
+    } 
+    
+    a.nav-link:hover {
+        color: vrb.$color-success;
     }
-
+ 
     // Active olan ilk nav 
     .nav-link__active {
            color: vrb.$color-success;

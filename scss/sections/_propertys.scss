@@ -1,0 +1,44 @@
+@use '../abstracts/variables' as vrb;
+@use '../abstracts/mixing' as mix;
+
+
+#property {
+    .icon-item {
+        @include mix.borderRadius;
+        display: block;
+        background-color: #EFFDF5;
+        text-align: center;
+        border-radius: 25px;
+        text-decoration: none;
+        color: vrb.$color-black;
+    }
+    .icon-item:hover div {
+        background-color: vrb.$color-success;
+        border-color: transparent;
+        position: inherit;
+    }
+
+    .icon-item:hover div * {
+        color: #FFFFFF;
+    }
+
+    .icon:hover {
+        background-color: white;
+        color: #FFFFFF;
+    }
+    
+    @media (min-width: 992px) {
+        p {
+            margin-left: 180px;
+            margin-right: 180px;
+        }
+    }
+}
+
+
+// display: block;
+// background-color: #EFFDF5;
+// text-align: center;
+// border-radius: 25px;
+// text-decoration: none;
+// color: black;
